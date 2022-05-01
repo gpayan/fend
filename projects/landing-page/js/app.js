@@ -92,6 +92,17 @@ function scroll_to_section(event){
     });
 }
 
+
+function updateActiveNavTab(event){
+    const section_nav = event.target;
+    const active_nav = document.querySelector('.active__navtab');
+
+    if (active_nav){
+        active_nav.classList.remove('active__navtab');
+    }
+
+    section_nav.classList.add('active__navtab');
+}
 /**
  * End Helper Functions
  * Begin Main Functions
@@ -109,10 +120,11 @@ for (let i=0; i<sections_list.length; i++) {
     const section_numb = sections_list[i].getAttribute('data-nav');
 
     nav_item.innerHTML = '<a href=' + '#' + `${section_numb.split(' ').join('').toLowerCase()} class="menu__link">${section_numb}</a>`;
-
+//    nav_item.innerHTML = '<a href=' + '#' + `${section_numb.split(' ').join('').toLowerCase()} class="menu__link active__navtab">${section_numb}</a>`;
     //attaching an addEventListener to new list element created that will be in nav tab to be able to directly scroll to it. 
     nav_item.addEventListener('click',function(e){
         scroll_to_section(e);
+        updateActiveNavTab(e);
     });
 
     navbar_fragment.appendChild(nav_item);

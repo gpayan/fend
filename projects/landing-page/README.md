@@ -1,13 +1,23 @@
 # Landing Page Project
+The goal of this project is to demonstrate our ability to dynamically add content to a webpage.
 
 ## Table of Contents
 
 * [Instructions](#instructions)
+* [Adding_section] (#adding_section)
+* [Comments] (#comments)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+To start, the unzip the file and open the index.html page. You can start navigating the different sections either by scrolling or by clicking on the 
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Adding_section
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+You can add a section to the HTML document and the navigation bar will automatically be updated.
+
+## Comments
+
+If you have any comments, feel free to contact me. 
+
+
+
