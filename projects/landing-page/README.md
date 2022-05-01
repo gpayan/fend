@@ -4,8 +4,8 @@ The goal of this project is to demonstrate our ability to dynamically add conten
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Adding_section] (#adding_section)
-* [Comments] (#comments)
+* [Adding_section](#adding_section)
+* [Comments](#comments)
 
 ## Instructions
 
