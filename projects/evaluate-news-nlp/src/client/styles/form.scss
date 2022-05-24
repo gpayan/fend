@@ -1,0 +1,40 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+};
+
+input[type='text'], input[type='submit'] {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+};
+
+input[type="radio"]{
+    height: 10px;
+    width: 10px;
+}
+
+.radio-grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-areas: ". . . . left . right . . . .";
+    font-size: 0.7em;
+    font-family: Helvetica, sans-serif;
+
+    .left-radio {
+        grid-area: left;
+    };
+
+    .right-radio{
+        grid-area: right;
+    };
+
+    .radio-choice {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    };
+};

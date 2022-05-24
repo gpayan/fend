@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    font-family: Helvetica, sans-serif;
+    background-color: #FFF9FA;
+
+    .minimize {
+        font-size: 0.5em;
+    };
+}
